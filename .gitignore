@@ -1,0 +1,29 @@
+.pio/
+.pioenvs/
+.vscode/
+.idea/
+build/
+env/
+libdeps/
+/.cache/
+*.elf
+*.bin
+*.hex
+*.pio
+platformio.ini.swp
+*.orig
+*.log
+# OS files
+.DS_Store
+Thumbs.db
+# OneDrive/VCS temp
+~$*
+# Ignore user-specific PlatformIO settings
+.vscode/launch.json
+.vscode/settings.json
+
+# Ignore compiled Python caches (if any tooling uses them)
+__pycache__/
+*.pyc
+
+# Keep README, source and config files
